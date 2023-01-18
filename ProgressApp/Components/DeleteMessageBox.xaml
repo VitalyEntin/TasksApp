@@ -1,0 +1,41 @@
+﻿<Window x:Class="ProgressApp.DeleteMessageBox"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ProgressApp.Components"
+        mc:Ignorable="d"
+        Title="DeleteMessageBox" Height="140" Width="200"
+        WindowStyle="None"
+        Background="Transparent"
+        AllowsTransparency="True"
+        WindowStartupLocation="CenterOwner">
+    <Border CornerRadius="6">
+        <Border.Background>
+            <SolidColorBrush Color="#033399" Opacity="0.8"/>
+        </Border.Background>
+        <Grid>
+            <StackPanel Margin="10">
+                <TextBlock Text="Are you sure you want to do delete this item and all of its subitems?"
+                           FontSize="16"
+                           Foreground="White"
+                           TextWrapping="Wrap" />
+                <StackPanel Orientation="Horizontal"
+                            Margin="0,20,0,0"
+                            HorizontalAlignment="Center">
+                    <Button x:Name="YesButton"
+                            Content="Yes"
+                            Width="70"
+                            Height="30"
+                            Click="YesButton_Click" />      
+                    <Button x:Name="NoButton"
+                            Content="No"
+                            Width="70"
+                            Height="30"
+                            Margin="10,0,0,0"
+                            Click="NoButton_Click" />
+                </StackPanel>
+            </StackPanel>
+        </Grid>
+    </Border>
+</Window>

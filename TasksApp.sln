@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32505.173
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TasksApp", "ProgressApp\TasksApp.csproj", "{593480FA-345A-4E57-B66B-42E718B970A2}"
+	ProjectSection(ProjectDependencies) = postProject
+		{462DF022-AAB2-4127-A07D-C04BD0C1FDE8} = {462DF022-AAB2-4127-A07D-C04BD0C1FDE8}
+		{BD2878BA-71CD-4EC6-A6D8-955A693AC4DC} = {BD2878BA-71CD-4EC6-A6D8-955A693AC4DC}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TasksAppEF", "ProgressAppEF\TasksAppEF.csproj", "{462DF022-AAB2-4127-A07D-C04BD0C1FDE8}"
+	ProjectSection(ProjectDependencies) = postProject
+		{BD2878BA-71CD-4EC6-A6D8-955A693AC4DC} = {BD2878BA-71CD-4EC6-A6D8-955A693AC4DC}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TasksAppDomain", "ProgressAppDomain\TasksAppDomain.csproj", "{BD2878BA-71CD-4EC6-A6D8-955A693AC4DC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{593480FA-345A-4E57-B66B-42E718B970A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{593480FA-345A-4E57-B66B-42E718B970A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{593480FA-345A-4E57-B66B-42E718B970A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{593480FA-345A-4E57-B66B-42E718B970A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{462DF022-AAB2-4127-A07D-C04BD0C1FDE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{462DF022-AAB2-4127-A07D-C04BD0C1FDE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{462DF022-AAB2-4127-A07D-C04BD0C1FDE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{462DF022-AAB2-4127-A07D-C04BD0C1FDE8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD2878BA-71CD-4EC6-A6D8-955A693AC4DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD2878BA-71CD-4EC6-A6D8-955A693AC4DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD2878BA-71CD-4EC6-A6D8-955A693AC4DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD2878BA-71CD-4EC6-A6D8-955A693AC4DC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DED37DCE-C7DE-4BE0-A803-9D7733AE78F6}
+	EndGlobalSection
+EndGlobal

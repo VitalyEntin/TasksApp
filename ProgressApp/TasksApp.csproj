@@ -1,0 +1,37 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Resources\arrow-88-24.png" />
+    <None Remove="Resources\edit-2-24.png" />
+    <None Remove="Resources\house-24.png" />
+    <None Remove="Resources\list-2-24.png" />
+    <None Remove="Resources\logout-24.png" />
+    <None Remove="Resources\plus-24.png" />
+    <None Remove="Resources\user-24.png" />
+    <None Remove="Resources\x-mark-4-24.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ProgressAppDomain\TasksAppDomain.csproj" />
+    <ProjectReference Include="..\ProgressAppEF\TasksAppEF.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Resources\arrow-88-24.png" />
+    <Resource Include="Resources\edit-2-24.png" />
+    <Resource Include="Resources\house-24.png" />
+    <Resource Include="Resources\list-2-24.png" />
+    <Resource Include="Resources\logout-24.png" />
+    <Resource Include="Resources\plus-24.png" />
+    <Resource Include="Resources\user-24.png" />
+    <Resource Include="Resources\x-mark-4-24.png" />
+  </ItemGroup>
+
+</Project>
